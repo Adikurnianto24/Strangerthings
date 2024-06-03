@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">StrangerThings</string>
+
+    <string name="character_name">Nama Character</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="about_string">About</string>
+    <string name="nama">Muhammad Adi Kurnianto</string>
+    <string name="email">muhammadadikurnianto@gmail.com</string>
+    <string-array name="cast_name">
+        <item>Dacre Montgomery</item>
+        <item>Gaten Matarazzo</item>
+        <item>Joseph Quinn</item>
+        <item>Millie Bobby Brown</item>
+        <item>Caleb McLaughlin</item>
+        <item>Sadie Sink</item>
+        <item>Finn Wolfhard</item>
+        <item>Natalia Dyer</item>
+        <item>Joe Keery</item>
+        <item>Noah Schnapp</item>
+    </string-array>
+    <string-array name="age_name">
+        <item>29 Years</item>
+        <item>21 Years</item>
+        <item>30 Years</item>
+        <item>20 Years</item>
+        <item>22 Years</item>
+        <item>21 Years</item>
+        <item>21 Years</item>
+        <item>29 Years</item>
+        <item>31 Years</item>
+        <item>19 Years</item>
+    </string-array>
+    <string-array name="data_name">
+        <item>Billy Hangrove</item>
+        <item>Dustin Henderson</item>
+        <item>Eddie Munson</item>
+        <item>Eleven</item>
+        <item>Lucas Sinclair</item>
+        <item>Max Mayfield</item>
+        <item>Mike Wheeler</item>
+        <item>Nancy Wheeler</item>
+        <item>Steve Harrington</item>
+        <item>Will Byers</item>
+    </string-array>
+    <string-array name="data_description">
+        <item> Billy Hangrove is depicted as a tough and rebellious teenager with a troubled past. Hes known for his aggressive behavior, athleticism, and good looks, which make him quite popular among his peers in Hawkins, Indiana. He drives a cool muscle car and has a tough demeanor that often intimidates others.</item>
+        <item>Dustin Henderson is known for his distinctive curly hair, lisp, and endearing personality. Hes characterized as a lovable nerd with a passion for science, particularly anything related to the paranormal and Dungeons, Dragons. Despite his sometimes awkward demeanor, Dustin is fiercely loyal to his friends and is often the peacemaker within the group.</item>
+        <item>Eddie Munson is described as an audacious, charismatic, and rebellious metalhead who runs The Hellfire Club, a popular teenage hangout spot in Hawkins, Indiana. Hes the lead singer and guitarist of a band called The Hellfire Club, which performs at the club. Eddie is known for his confident and fearless demeanor, as well as his passion for music and counterculture.</item>
+        <item>Eleven is a young girl with psychokinetic abilities who escapes from Hawkins National Laboratory, a secretive government facility where she was subjected to experiments. She is discovered by a group of boys—Mike Wheeler, Dustin Henderson, and Lucas Sinclair—who are searching for their missing friend, Will Byers. They nickname her "Eleven" based on a tattoo on her arm.</item>
+        <item>Lucas Sinclair is characterized as intelligent, pragmatic, and brave. Hes one of the original members of the group, alongside Mike Wheeler, Dustin Henderson, and Will Byers. In the series, Lucas often serves as the voice of reason, approaching situations with a level-headed mindset and practical solutions. One of Lucas defining traits is his skepticism, which occasionally puts him at odds with his friends, particularly when it comes to believing in the supernatural events occurring in Hawkins, Indiana. Despite his initial doubts, Lucas proves to be a loyal and dependable friend, willing to go to great lengths to protect those he cares about.</item>
+        <item>Max Mayfield is initially presented as a new girl in Hawkins, Indiana, who catches the attention of the main group of boys: Mike Wheeler, Lucas Sinclair, Dustin Henderson, and Will Byers. She is independent, confident, and skilled at skateboarding, which sets her apart from the other girls in their school. Despite some initial tension and skepticism from the boys, Max eventually becomes integrated into their group of friends. She shares their love for adventure and intrigue, and she quickly proves herself to be resourceful and brave in the face of danger.</item>
+        <item>Mike Wheeler is a key member of the group of friends at the heart of the series, which also includes Lucas Sinclair, Dustin Henderson, Will Byers, and Eleven (Jane Hopper). He is characterized as loyal, compassionate, and courageous, often serving as a natural leader within the group. Mikes character arc is deeply intertwined with the main storyline of the series, which revolves around the mysterious events occurring in the small town of Hawkins, Indiana. He is particularly close to Will Byers, whose disappearance in the first season sets off a chain of events that lead the group into a world of supernatural dangers and government conspiracies.</item>
+        <item>Nancy Wheeler is introduced as the older sister of Mike Wheeler, one of the central characters in the series. She is depicted as a high school student in Hawkins, Indiana, during the 1980s. Nancy starts off as a typical teenage girl, concerned with her social status and relationships. However, as the series progresses, she evolves into a courageous and resourceful character. Nancy character arc undergoes significant development throughout the series. In the first season, she becomes romantically involved with Steve Harrington, one of the popular kids at school. However, her priorities shift when her friend Barb Holland goes missing under mysterious circumstances, leading Nancy to embark on a quest to uncover the truth behind the strange occurrences in Hawkins.</item>
+        <item>Steve Harrington character begins to evolve when he forms an unlikely bond with Dustin Henderson, one of the younger protagonists. Despite their initial differences, Steve becomes a mentor figure to Dustin, offering him advice on matters such as relationships and self-confidence.</item>
+        <item>Will Byers is depicted as a quiet and sensitive boy who loves playing Dungeons and Dragons with his friends. He lives in Hawkins, Indiana, with his mother Joyce, his older brother Jonathan, and his dog Chester. Wills disappearance at the beginning of the series triggers a series of supernatural events, leading his friends and family on a desperate search to find him.</item>
+    </string-array>
+
+    <string-array name="details">
+        <item>Billy Hangrove</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/billy</item>
+        <item>@drawable/dustin</item>
+        <item>@drawable/eddie</item>
+        <item>@drawable/eleven</item>
+        <item>@drawable/lucas</item>
+        <item>@drawable/max</item>
+        <item>@drawable/mike</item>
+        <item>@drawable/nancy</item>
+        <item>@drawable/steve</item>
+        <item>@drawable/will</item>
+    </integer-array>
+    <integer-array name="data_bg">
+        <item>@drawable/billy1</item>
+        <item>@drawable/dustin1</item>
+        <item>@drawable/eddi1</item>
+        <item>@drawable/eleven1</item>
+        <item>@drawable/lucas1</item>
+        <item>@drawable/max1</item>
+        <item>@drawable/mike1</item>
+        <item>@drawable/nancy1</item>
+        <item>@drawable/steve1</item>
+        <item>@drawable/aaaaa</item>
+    </integer-array>
+    <integer-array name="list_bg">
+        <item>@drawable/listbg1</item>
+        <item>@drawable/listbg1</item>
+        <item>@drawable/listbg1</item>
+        <item>@drawable/listbg1</item>
+        <item>@drawable/listbg1</item>
+        <item>@drawable/listbg1</item>
+        <item>@drawable/listbg1</item>
+        <item>@drawable/listbg1</item>
+        <item>@drawable/listbg1</item>
+        <item>@drawable/listbg1</item>
+    </integer-array>
+</resources>

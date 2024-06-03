@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/char_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EF7070"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/character_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="309dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/mike1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/character_pic"
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:src="@drawable/nancy1"
+                app:layout_constraintTop_toBottomOf="@+id/character_bg"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/character_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/character_pic"
+                app:layout_constraintTop_toBottomOf="@+id/character_bg"
+                tools:text="Brook" />
+
+            <TextView
+                android:id="@+id/character_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/age_text"/>
+
+
+            <TextView
+                android:id="@+id/cast_text"
+                android:layout_width="155dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                android:text="Cast  :"
+                android:textColor="#000000"
+                android:textColorHighlight="#9C27B0"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/character_pic" />
+
+            <TextView
+                android:id="@+id/age_text"
+                android:layout_width="154dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:justificationMode="inter_word"
+                android:text="Age   :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cast_text" />
+
+            <TextView
+                android:id="@+id/char_cast"
+                android:layout_width="174dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="16dp"
+                android:justificationMode="inter_word"
+                android:text="Test"
+                android:textColor="#F8F8F8"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.37"
+                app:layout_constraintStart_toEndOf="@+id/cast_text"
+                app:layout_constraintTop_toBottomOf="@+id/share_button" />
+
+            <TextView
+                android:id="@+id/char_age"
+                android:layout_width="169dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:justificationMode="inter_word"
+                android:text="Test"
+                android:textColor="#F8F8F8"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/age_text"
+                app:layout_constraintTop_toBottomOf="@+id/char_cast" />
+
+            <Button
+                android:id="@+id/share_button"
+                android:layout_width="94dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="136dp"
+                android:text="Share"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/character_pic"
+                app:layout_constraintTop_toBottomOf="@+id/character_name" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
